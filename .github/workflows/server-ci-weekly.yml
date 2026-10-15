@@ -11,8 +11,6 @@
 # - mmctl FIPS tests (1x 8-core)
 name: Server CI Weekly
 on:
-  schedule:
-    - cron: "0 5 * * 1" # Monday 5am UTC (~1am ET)
   push:
     branches:
       - "release-*"
